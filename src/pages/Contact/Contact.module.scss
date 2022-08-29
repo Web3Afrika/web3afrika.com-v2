@@ -1,0 +1,75 @@
+.Contact {
+  width: 85%;
+  margin: auto;
+  padding-top: 4em;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    width: 85%;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2em;
+    }
+  }
+
+  &Form {
+    margin: 5em 0 10em;
+
+    @media screen and (max-width: 768px) {
+      margin: 3em 0 5em;
+    }
+
+    label {
+      display: block;
+      font-size: 1.2em;
+    }
+
+    input {
+      border: 1px solid #ffffff;
+    }
+
+    input,
+    textarea {
+      outline: none;
+      box-sizing: border-box;
+      margin: 1em 0 3em;
+      padding: 1em;
+      width: 100%;
+      color: #ffffff;
+      border-radius: 5px;
+      font-size: 1.1em;
+      background: transparent;
+    }
+
+    textarea {
+      line-height: 1.4em;
+
+      &::placeholder {
+        color: #585858;
+      }
+    }
+
+    button {
+      transition: all 0.3s ease-in-out;
+      text-transform: uppercase;
+      font-weight: 600;
+      outline: none;
+      border: 2px solid #ffffff;
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1.2em;
+      border-radius: 25px;
+      padding: 0.8em 2.5em;
+      margin-bottom: 2em;
+
+      &:hover {
+        background: #ffffff;
+        color: #000000;
+      }
+    }
+  }
+}
