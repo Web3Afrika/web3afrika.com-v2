@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "./../../assets/images/icons/logo.svg";
 
@@ -27,19 +27,24 @@ function Navbar({ navVisibility, setNavVisibility }) {
           </Link>
         </li>
         <li>
-          <Link className="link" to={"/whitepaper"}>
+          <Link className="link" to={"/about"}>
             Whitepaper
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link className="link" to={"/team"}>
             Team
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link className="link" to={"/donate"}>
             Donate
           </Link>
+        </li> */}
+        <li>
+          <a className="link" href="https://blog.web3afrika.com" target="_blank" rel="noreferrer">
+            Blog
+          </a>
         </li>
         <li>
           <Link className="link" to={"/contact-us"}>

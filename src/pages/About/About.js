@@ -1,7 +1,6 @@
 import styles from "./About.module.scss";
 
 import Footer from "./../../components/Footer/Footer";
-import discordIcon from "./../../assets/images/icons/icon-discord.svg";
 import partner1 from "./../../assets/partners/partner_1.svg";
 import { Banner, LinkBtn } from "../../components/Utils/Utils";
 
@@ -13,7 +12,7 @@ function About() {
         <div className={styles.AboutButtons}>
           <LinkBtn
             title="Sponsor US"
-            url="http://discord.gg/YMJ49PDTym"
+            url="mailto:web3afrika@gmail.com"
             color="red"
             bordered={true}
           />
@@ -44,13 +43,13 @@ function About() {
         <section>
           <h2>VISION</h2>
           <ul>
-            <li>Access to education, funding, community, networks</li>
+            <li>Access: to provide access to our members that would not otherwise be available. Access to education, funding, community, networks</li>
             <li>
-              Transparency: open source everything, conversations in public,
-              document and shared journey
+            Transparency: open source everything, conversations in public, document and shared journey
             </li>
-            <li>Diversity and Inclusion</li>
-            <li>Responsibility</li>
+            <li>Diversity and Inclusion: to truly build a safe space for our members regardless of their differences in age, ethnicity, gender, gender identity or expression, language differences, nationality or national origin, family or marital status, physical, mental and development abilities, race, religion or belief, sexual orientation, skin color, social or economic class, education, work and behavioral styles, political affiliation, military service, caste, and other characteristics that make our members unique</li>
+            <li>Responsibility: as a self-governed community, we rely on members to be personally responsible for their actions and commitments to the community</li>
+            <li>Kindness and Empathy: we know that we live in a complex, stressful, and diverse world and go out of our way to make people’s lives and days better through our interactions</li>
           </ul>
         </section>
       </div>

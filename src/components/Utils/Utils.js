@@ -5,9 +5,12 @@ import banner from "./../../assets/images/banner.svg";
 export function Socials() {
   return (
     <div className={styles.Socials}>
-      <a target="_blank" href="https://www.web3afrika.com/"></a>
-      <a target="_blank" href="https://twitter.com/web3afrika"></a>
-      <a target="_blank" href="https://www.web3afrika.com/"></a>
+      <a target="_blank" href="https://www.web3afrika.com/" rel="noreferrer">
+      </a>
+      <a target="_blank" href="https://twitter.com/web3afrika" rel="noreferrer">
+      </a>
+      <a target="_blank" href="https://www.web3afrika.com/" rel="noreferrer">
+      </a>
     </div>
   );
 }
@@ -24,7 +27,7 @@ export function LinkBtn({ title, url, icon, color, bordered }) {
         color === "green" ? styles.LinkBtnGreen : "",
       ].join(" ")}
       href={url}
-      target="_blank"
+      target="_blank" rel="noreferrer"
     >
       {title} {!!icon && <img src={discordIcon} alt="discordIcon" />}
     </a>

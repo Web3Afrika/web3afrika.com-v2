@@ -10,7 +10,7 @@ function Footer() {
         <Socials />
       </div>
       <div className="hr"></div>
-      <span>&copy; {(new Date).getFullYear()} Web3Afrika. All Rights Reserved</span>
+      <span>&copy; {(new Date()).getFullYear()} Web3Afrika. All Rights Reserved</span>
     </div>
   );
 }
