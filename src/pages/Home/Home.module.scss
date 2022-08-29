@@ -1,0 +1,51 @@
+.Home {
+  padding-bottom: 1em;
+  padding-top: 7em;
+  box-sizing: border-box;
+  // border: 1px solid red;
+
+  background-image: url("./../../assets/images/star.svg"),
+    url("./../../assets/images/yellow-coil.svg"),
+    url("./../../assets/images/green-coil.svg"),
+    url("./../../assets/images/dot-box.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 5em, 3.5em, 4em, 12em;
+  background-position: 70% 3%, 38% 50%, 96% 52%, 83% 73%;
+
+  @media screen and (max-width: 768px) {
+    background-image: url("./../../assets/images/star.svg"),
+      url("./../../assets/images/yellow-coil.svg"),
+      url("./../../assets/images/green-coil.svg"),
+      url("./../../assets/images/dot-box.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 5em, 2.8em, 4em, 12em;
+    background-position: 87% 28%, 72% 2%, 5% 52%, 140% 65%;
+    padding-top: 2em;
+  }
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    width: 85%;
+    text-transform: uppercase;
+    // margin-top: 1.75em;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2.4em;
+    }
+  }
+
+  &Btn {
+    margin: 5em 0;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 2em;
+      font-size: 0.8em;
+    }
+  }
+
+  .Social {
+    margin: 2em 0;
+    margin-top: 12em;
+  }
+}

@@ -1,0 +1,20 @@
+.Footer {
+  text-align: center;
+  padding-bottom: 3em;
+
+  span {
+    color: #a4a4a4;
+    @media screen and (max-width: 768px) {
+      font-size: 0.9em;
+    }
+  }
+
+  .Social {
+    width: fit-content;
+    margin: auto;
+
+    @media screen and (max-width: 768px) {
+      margin: 2em auto;
+    }
+  }
+}
