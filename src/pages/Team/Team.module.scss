@@ -1,0 +1,29 @@
+.Team {
+  padding-bottom: 1em;
+  padding-top: 3em;
+
+  &Container {
+    width: 92.5%;
+    margin-left: auto;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+  }
+
+  &Banner {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &Footer {
+    width: 85%;
+    margin: auto;
+    
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}
