@@ -61,10 +61,7 @@ function About() {
         <section className={styles.Partners}>
           <h2>Partners</h2>
           <div className={styles.PartnersLogo}>
-            <img src={partner1} alt="developer_dao partner" />
-            <img src={partner1} alt="developer_dao partner" />
-            <img src={partner1} alt="developer_dao partner" />
-            <img src={partner1} alt="developer_dao partner" />
+            <img src={partner1} alt="developer dao partner" />
           </div>
         </section>
 
