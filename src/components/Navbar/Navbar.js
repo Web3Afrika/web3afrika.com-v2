@@ -53,9 +53,9 @@ function Navbar({ navVisibility, setNavVisibility }) {
         </li>
       </ul>
       <div className={styles.connect}>
-        <button>
-          <span>Join Us</span>
-        </button>
+        <a className={styles.linkBtn} href="http://discord.gg/YMJ49PDTym" target="_blank" rel="noreferrer">
+          Join Us
+        </a>
         <span>
           <Link className="link" to={"/contact-us"}>
             Contact Us
