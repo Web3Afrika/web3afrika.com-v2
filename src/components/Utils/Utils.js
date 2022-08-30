@@ -20,24 +20,24 @@ export function Socials() {
           href="https://twitter.com/web3afrika"
           rel="noreferrer"
         >
-          <img src={twitterIcon} />
+          <img src={twitterIcon} alt="twitter icon" />
         </a>
         <a
           target="_blank"
           href="https://github.com/Web3Afrika"
           rel="noreferrer"
         >
-          <img src={githubIcon} />
+          <img src={githubIcon} alt="github icon" />
         </a>
         <a target="_blank" href="https://blog.web3afrika.com" rel="noreferrer">
-          <img src={bloggerIcon} />
+          <img src={bloggerIcon} alt="blogger icon" />
         </a>
         <a
           target="_blank"
           href="https://www.instagram.com/web3afrika"
           rel="noreferrer"
         >
-          <img src={instagramIcon} />
+          <img src={instagramIcon} alt="insragram icon" />
         </a>
       </div>
       <div>
@@ -46,24 +46,24 @@ export function Socials() {
           href="https://www.tiktok.com/@web3afrika"
           rel="noreferrer"
         >
-          <img src={tiktokIcon} />
+          <img src={tiktokIcon} alt="tiktok icon" />
         </a>
         <a
           target="_blank"
           href="https://www.reddit.com/user/Web3Afrika"
           rel="noreferrer"
         >
-          <img src={redditIcon} />
+          <img src={redditIcon} alt="reddit icon" />
         </a>
         <a target="_blank" href="https://www.web3afrika.com" rel="noreferrer">
-          <img src={websiteIcon} />
+          <img src={websiteIcon} alt="website icon" />
         </a>
         <a
           target="_blank"
           href="https://www.youtube.com/channel/UCr5IiYZ4zUD3k9Cq80TBMkg"
           rel="noreferrer"
         >
-          <img src={youtubeIcon} />
+          <img src={youtubeIcon} alt="youtube icon" />
         </a>
       </div>
     </div>

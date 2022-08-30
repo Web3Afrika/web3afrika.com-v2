@@ -53,7 +53,7 @@ function Navbar({ navVisibility, setNavVisibility }) {
         </li>
       </ul>
       <div className={styles.connect}>
-        <a className={styles.linkBtn} href="http://discord.gg/YMJ49PDTym" target="_blank">
+        <a className={styles.linkBtn} href="http://discord.gg/YMJ49PDTym" target="_blank" rel="noreferrer">
           Join Us
         </a>
         <span>
