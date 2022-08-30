@@ -121,13 +121,11 @@
     align-items: center;
     justify-content: space-around;
 
-    button {
-      outline: none;
-      border: none;
+    a.linkBtn {
+      text-decoration: none;
       background: #e4212a;
       color: white;
       font-weight: bold;
-      cursor: pointer;
       font-size: 1em;
       border-radius: 25px;
       padding: 0.8em 2em;
