@@ -1,6 +1,15 @@
 .Socials {
   display: flex;
-  width: fit-content;
+  align-items: center;
+
+  div {
+    display: flex;
+    width: fit-content;
+
+    &:nth-of-type(2) {
+      margin-left: 1.5em;
+    }
+  }
   // margin: 2em 0 4em;
 
   a {
@@ -9,40 +18,31 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
 
     &:nth-of-type(1) {
       margin-left: 0;
-
-      &::before {
-        content: url("./../../assets/images/icons/icon-facebook.svg");
-        position: absolute;
-        right: 0.95em;
-        top: 0.45em;
-      }
-    }
-
-    &:nth-of-type(2) {
-      &::before {
-        content: url("./../../assets/images/icons/icon-twitter.svg");
-        position: absolute;
-        right: 0.5em;
-        top: 0.65em;
-      }
-    }
-
-    &:nth-of-type(3) {
-      &::before {
-        content: url("./../../assets/images/icons/icon-linkedin.svg");
-        position: absolute;
-        right: 0.6em;
-        top: 0.52em;
-      }
     }
   }
 
   @media screen and (max-width: 768px) {
     // margin: 1em auto 2em;
+    flex-direction: column;
+
+    div {
+      margin: auto;
+
+      &:nth-of-type(2) {
+        margin: 1em auto 0;
+      }
+    }
   }
 }
 
@@ -74,15 +74,15 @@
   align-items: center;
   width: fit-content;
 
-  &:nth-of-type(even){
+  &:nth-of-type(even) {
     margin-left: 1.5em;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       margin-left: 0;
     }
   }
 
-  &Green{
+  &Green {
     background-color: #0c6e5f;
   }
 
