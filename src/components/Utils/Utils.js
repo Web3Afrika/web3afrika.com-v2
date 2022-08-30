@@ -8,7 +8,6 @@ import githubIcon from "./../../assets/images/icons/icon-github.svg";
 import instagramIcon from "./../../assets/images/icons/icon-instagram.svg";
 import tiktokIcon from "./../../assets/images/icons/icon-tiktok.svg";
 import redditIcon from "./../../assets/images/icons/icon-reddit.svg";
-import websiteIcon from "./../../assets/images/icons/icon-website.svg";
 import youtubeIcon from "./../../assets/images/icons/icon-youtube.svg";
 
 export function Socials() {
@@ -54,9 +53,6 @@ export function Socials() {
           rel="noreferrer"
         >
           <img src={redditIcon} alt="reddit icon" />
-        </a>
-        <a target="_blank" href="https://www.web3afrika.com" rel="noreferrer">
-          <img src={websiteIcon} alt="website icon" />
         </a>
         <a
           target="_blank"
