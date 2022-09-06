@@ -13,6 +13,8 @@ function App() {
 
   useEffect(() => {
     if (navVisibility) setNavVisibility(false);
+
+    //eslint-disable-next-line
   }, [location]);
 
   return (
