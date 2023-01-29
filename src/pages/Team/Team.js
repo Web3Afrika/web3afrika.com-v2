@@ -36,7 +36,7 @@ function Team() {
   ]);
 
   useEffect(() => {
-    if (window.innerWidth <= 768) setSliderPreview(1.4);
+    if (window.innerWidth <= 768) setSliderPreview(1.3);
   }, []);
 
   return (

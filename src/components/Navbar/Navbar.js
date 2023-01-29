@@ -31,11 +31,11 @@ function Navbar({ navVisibility, setNavVisibility }) {
             Whitepaper
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link className="link" to={"/team"}>
             Team
           </Link>
-        </li> */}
+        </li>
         {/* <li>
           <Link className="link" to={"/donate"}>
             Donate
