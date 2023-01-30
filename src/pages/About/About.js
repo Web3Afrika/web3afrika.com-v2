@@ -77,7 +77,7 @@ function About() {
         </section>
       </div>
 
-      <div style={{ margin: "4em 0" }}>
+      <div className={styles.BannerWrapper}>
         <Banner />
       </div>
       <div className="container">
