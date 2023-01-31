@@ -12,8 +12,11 @@ import "./swiper.scss";
 import styles from "./Team.module.scss";
 
 import founder from "./../../assets/images/team/founder.png";
-import designLead from "./../../assets/images/team/design-lead.png";
-import partnershipsAndSponsorship from "./../../assets/images/team/partnerships-and-sponsorship.png";
+import zara from "./../../assets/images/team/zara.png";
+import tonyElondo from "./../../assets/images/team/elondo.png";
+import Ajoke from './../../assets/images/team/ajoke.jpeg'
+import Jennie from "./../../assets/images/team/jennie.jpeg";
+import tonyKip from "./../../assets/images/team/tony.jpeg"
 
 function Team() {
   const [sliderPreview, setSliderPreview] = useState(3.5);
@@ -21,22 +24,37 @@ function Team() {
     {
       name: "Idris",
       profileImage: founder,
-      position: "Founder, Web3Afrika",
+      position: "Developer Relation Engineer",
+    },
+    {
+      name: "Ajoke",
+      profileImage: Ajoke,
+      position: "Developer Relation Engineer",
     },
     {
       name: "Zara",
-      profileImage: designLead,
+      profileImage: zara,
       position: "Design Lead",
     },
     {
       name: "Tonye",
-      profileImage: partnershipsAndSponsorship,
+      profileImage: tonyElondo,
       position: "Partnerships & Sponsorship",
     },
+    {
+      name: "Jennie",
+      profileImage: Jennie,
+      position: "Developer Relation Engineer",
+    },
+    {
+      name: "Tony",
+      profileImage: tonyKip,
+      position: "Developer Relation Engineer",
+    }
   ]);
 
   useEffect(() => {
-    if (window.innerWidth <= 768) setSliderPreview(1.4);
+    if (window.innerWidth <= 768) setSliderPreview(1.3);
   }, []);
 
   return (

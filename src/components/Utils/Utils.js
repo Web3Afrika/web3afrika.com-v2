@@ -56,7 +56,7 @@ export function Socials() {
         </a>
         <a
           target="_blank"
-          href="https://www.youtube.com/channel/UCr5IiYZ4zUD3k9Cq80TBMkg"
+          href="https://www.youtube.com/@web3afrika"
           rel="noreferrer"
         >
           <img src={youtubeIcon} alt="youtube icon" />
