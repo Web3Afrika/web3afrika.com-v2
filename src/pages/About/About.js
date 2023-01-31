@@ -4,6 +4,8 @@ import Footer from "./../../components/Footer/Footer";
 import partner1 from "./../../assets/partners/partner_1.svg";
 import partner2 from "./../../assets/partners/partner-2.jpeg";
 import partner3 from "./../../assets/partners/partner-3.jpeg";
+import partner4 from "./../../assets/partners/bunzz.png"
+
 import { Banner, LinkBtn } from "../../components/Utils/Utils";
 
 function About() {
@@ -86,14 +88,19 @@ function About() {
           <div className={styles.PartnersLogo}>
             <img src={partner1} alt="developer dao " />
             <img
+              src={partner3}
+              className={styles.PartnersLogoRounded}
+              alt="Web3bridge"
+            />
+            <img
               src={partner2}
               className={styles.PartnersLogoRounded}
               alt="Web3d Media"
             />
             <img
-              src={partner3}
+             src={partner4}
               className={styles.PartnersLogoRounded}
-              alt="Web3bridge"
+              alt="Bunzz"
             />
           </div>
         </section>
