@@ -7,6 +7,8 @@ import Home from "./pages/Home/Home";
 import Error404 from "./pages/Error404/Error404";
 import { useEffect, useState } from "react";
 
+import styles from "./sass/App.module.scss";
+
 function App() {
   const location = useLocation();
   const [navVisibility, setNavVisibility] = useState(false);
@@ -18,7 +20,7 @@ function App() {
   }, [location]);
 
   return (
-    <>
+    <div className={styles.App}>
       <Navbar
         navVisibility={navVisibility}
         setNavVisibility={setNavVisibility}
@@ -30,7 +32,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
