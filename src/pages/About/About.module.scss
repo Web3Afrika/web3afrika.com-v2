@@ -8,7 +8,7 @@
       url("./../../assets/images/yellow-coil.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 5em, 4em, 3em;
-    background-position: 75% 12%, 108% 4%, 85% 46.5%;
+    background-position: 75% 8.2%, 108% 3%, 85% 36%;
     padding-top: 2em;
   }
 
@@ -16,7 +16,7 @@
     font-size: 5rem;
     font-weight: 500;
     width: 85%;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 
     @media screen and (max-width: 768px) {
       font-size: 2.4em;
@@ -26,6 +26,12 @@
   &Buttons {
     display: flex;
     margin: 4em 0;
+
+    a {
+      &:nth-of-type(1) {
+        margin-top: 0;
+      }
+    }
 
     @media screen and (max-width: 768px) {
       flex-direction: column;
@@ -70,6 +76,15 @@
     }
   }
 
+  .BannerWrapper {
+    margin: 5em 0 3em;
+    position: relative;
+
+    img {
+      position: relative;
+    }
+  }
+
   section {
     margin-top: 2em;
 
@@ -100,19 +115,28 @@
     }
 
     &Logo {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1em;
 
       img {
-        width: 12em;
+        width: auto;
+        max-width: 10em;
         margin: 2em auto;
+        align-self: center;
+
+        &.PartnersLogoRounded {
+          border-radius: 12px !important;
+        }
 
         @media screen and (max-width: 768px) {
           width: 7em;
           margin: 1em auto;
         }
+      }
+
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   }

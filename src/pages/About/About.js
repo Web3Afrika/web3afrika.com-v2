@@ -2,13 +2,15 @@ import styles from "./About.module.scss";
 
 import Footer from "./../../components/Footer/Footer";
 import partner1 from "./../../assets/partners/partner_1.svg";
+import partner2 from "./../../assets/partners/partner-2.jpeg";
+import partner3 from "./../../assets/partners/partner-3.jpeg";
 import { Banner, LinkBtn } from "../../components/Utils/Utils";
 
 function About() {
   return (
     <div className={styles.About}>
       <div className="container">
-        <h1>Largest community of web3 builders in Africa</h1>
+        <h1>Supporting Web3 Builders in Africa</h1>
         <div className={styles.AboutButtons}>
           <LinkBtn
             title="Sponsor US"
@@ -43,27 +45,56 @@ function About() {
         <section>
           <h2>VISION</h2>
           <ul>
-            <li>Access: to provide access to our members that would not otherwise be available. Access to education, funding, community, networks</li>
             <li>
-            Transparency: open source everything, conversations in public, document and shared journey
+              Access: to provide access to our members that would not otherwise
+              be available. Access to education, funding, community, networks
             </li>
-            <li>Diversity and Inclusion: to truly build a safe space for our members regardless of their differences in age, ethnicity, gender, gender identity or expression, language differences, nationality or national origin, family or marital status, physical, mental and development abilities, race, religion or belief, sexual orientation, skin color, social or economic class, education, work and behavioral styles, political affiliation, military service, caste, and other characteristics that make our members unique</li>
-            <li>Responsibility: as a self-governed community, we rely on members to be personally responsible for their actions and commitments to the community</li>
-            <li>Kindness and Empathy: we know that we live in a complex, stressful, and diverse world and go out of our way to make people’s lives and days better through our interactions</li>
+            <li>
+              Transparency: open source everything, conversations in public,
+              document and shared journey
+            </li>
+            <li>
+              Diversity and Inclusion: to truly build a safe space for our
+              members regardless of their differences in age, ethnicity, gender,
+              gender identity or expression, language differences, nationality
+              or national origin, family or marital status, physical, mental and
+              development abilities, race, religion or belief, sexual
+              orientation, skin color, social or economic class, education, work
+              and behavioral styles, political affiliation, military service,
+              caste, and other characteristics that make our members unique
+            </li>
+            <li>
+              Responsibility: as a self-governed community, we rely on members
+              to be personally responsible for their actions and commitments to
+              the community
+            </li>
+            <li>
+              Kindness and Empathy: we know that we live in a complex,
+              stressful, and diverse world and go out of our way to make
+              people’s lives and days better through our interactions
+            </li>
           </ul>
         </section>
       </div>
 
-      <div style={{ margin: "4em 0" }}>
+      <div className={styles.BannerWrapper}>
         <Banner />
       </div>
       <div className="container">
         <section className={styles.Partners}>
-          <h2>Partners</h2>
+          <h2>Our Partners</h2>
           <div className={styles.PartnersLogo}>
-            <a href="https://developerdao.com" target="_blank" rel="noopener noreferrer">
-            <img src={partner1} alt="developer dao partner" />
-            </a>
+            <img src={partner1} alt="developer dao " />
+            <img
+              src={partner2}
+              className={styles.PartnersLogoRounded}
+              alt="Web3d Media"
+            />
+            <img
+              src={partner3}
+              className={styles.PartnersLogoRounded}
+              alt="Web3bridge"
+            />
           </div>
         </section>
 

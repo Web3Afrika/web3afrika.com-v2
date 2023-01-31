@@ -7,11 +7,15 @@
     font-size: 4rem;
     font-weight: 500;
     width: 85%;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 
     @media screen and (max-width: 768px) {
       font-size: 2em;
     }
+  }
+
+  .Required {
+    color: red !important;
   }
 
   &Form {
@@ -30,8 +34,7 @@
       border: 1px solid #ffffff;
     }
 
-    input,
-    textarea {
+    input{
       outline: none;
       box-sizing: border-box;
       margin: 1em 0 3em;
@@ -40,12 +43,21 @@
       color: #ffffff;
       border-radius: 5px;
       font-size: 1.1em;
-      background: transparent;
+      background: url("./../../assets/images/input-overlay.svg"), transparent;
     }
+
 
     textarea {
       line-height: 1.4em;
-
+      outline: none;
+      box-sizing: border-box;
+      margin: 1em 0 3em;
+      padding: 1em;
+      width: 100%;
+      color: #ffffff;
+      border-radius: 5px;
+      font-size: 1.1em;
+      background: url("./../../assets/images/text-area-overlay.svg"), transparent;
       &::placeholder {
         color: #585858;
       }
