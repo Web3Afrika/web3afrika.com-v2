@@ -61,7 +61,9 @@ function About() {
         <section className={styles.Partners}>
           <h2>Partners</h2>
           <div className={styles.PartnersLogo}>
+            <a href="https://developerdao.com" target="_blank" rel="noopener noreferrer">
             <img src={partner1} alt="developer dao partner" />
+            </a>
           </div>
         </section>
 
