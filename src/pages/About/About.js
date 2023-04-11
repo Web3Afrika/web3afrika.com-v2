@@ -12,7 +12,7 @@ function About() {
   return (
     <div className={styles.About}>
       <div className="container">
-        <h1>Empowering the Next Generation of African Web3 Builders</h1>
+        <h1>Empowering African Web3 Builders</h1>
         <div className={styles.AboutButtons}>
           <LinkBtn
             title="Sponsor US"
